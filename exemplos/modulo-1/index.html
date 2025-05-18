@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Exemplos práticos do Módulo 1 – CSS">
+  <title>Exemplos CSS – Módulo 1</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    .inline-demo {
+      text-align: justify;
+    }
+    .classe-demo {
+      font-weight: bold;
+      border: solid 1px red;
+      font-style: italic;
+    }
+    #id-demo {
+      background-color: #00f;
+      color: white;
+      padding: 1rem;
+      margin-top: 16px;
+    }
+    .box-model {
+      background-color: #98bf21;
+      margin: 50px;
+      padding: 30px;
+      border: solid 5px black;
+      width: 300px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplos CSS – Módulo 1</h1>
+
+  <h2>1. CSS Inline</h2>
+  <p style="text-align: justify; color: green">Este parágrafo está usando CSS inline (evitar em projetos reais).</p>
+
+  <h2>2. CSS Interno</h2>
+  <p class="inline-demo">Este parágrafo recebe o estilo do bloco <code>&lt;style&gt;</code> interno.</p>
+
+  <h2>3. CSS por Classe</h2>
+  <p class="classe-demo">Texto com borda vermelha, negrito e itálico.</p>
+
+  <h2>4. CSS por ID</h2>
+  <div id="id-demo">Área estilizada com seletor ID (#id-demo)</div>
+
+  <h2>5. Box Model</h2>
+  <div class="box-model">
+    Esta caixa demonstra margin, padding, border e content.
+  </div>
+</body>
+</html>
