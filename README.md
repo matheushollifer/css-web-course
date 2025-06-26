@@ -12,8 +12,12 @@ Este curso complementa o conteúdo de HTML com foco na camada visual de apresent
 css-course/
 ├── index.html                 # Página inicial com índice interativo
 ├── modulos/                   # Conteúdo dividido por módulos
-│   └── modulo-1/              # Introdução e fundamentos do CSS
-│       └── aula-1.md
+│   ├── modulo-1/              # Introdução e fundamentos do CSS
+│   │   └── aula-1.md
+│   └── modulo-2/              # Layout com Flexbox
+│       ├── readme.md
+│       ├── exemplo.md
+│       └── exercicio.md
 ├── exemplos/                  # Exemplos práticos em HTML+CSS
 ├── exercicios/                # Atividades propostas
 └── README.md                  # Este arquivo
@@ -31,6 +35,20 @@ css-course/
 * Comentários
 * Seletores básicos: por tag, classe e ID
 * Introdução ao Box Model
+
+---
+
+## 📄 Módulo 2 – Layout com Flexbox
+
+**Tópicos:**
+
+* Conceito de contêiner flexível (`display: flex`)
+* Direção principal (`flex-direction`)
+* Alinhamento no eixo principal (`justify-content`)
+* Alinhamento no eixo cruzado (`align-items`)
+* Distribuição de espaço com `flex`
+* Exemplo prático com 3 caixas
+* Exercício de layout com cabeçalho, menu, conteúdo e rodapé
 
 ---
 
@@ -60,3 +78,4 @@ cd css-course
 ---
 
 > 💡 Em breve: Módulos com layout responsivo, animações com `@keyframes`, Flexbox e Grid CSS!
+
